@@ -20,7 +20,7 @@ const User = ({
 }) => {
   useEffect(() => {
     getUser();
-  }, [getUser]);
+  }, []);
 
   
   return loading ? (
