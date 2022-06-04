@@ -24,6 +24,8 @@ Start by installing all Node dependencies using `npm install` in root, then `cd 
 
 ## Usage
 
+Run the Backend and forntend concurrently by using `npm run dev` or Run simple Backend by using `npm start`
+
 Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
