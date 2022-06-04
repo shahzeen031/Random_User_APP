@@ -2,12 +2,11 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+-Build a simple React app that renders information retrieved from the Random User API. 
+-Call the API from Node Express.js backend.
+-Redux Store is setup for appropriate actions and reducers to retrieve the response from the Node- Express Backend. then, update the user.js component using that     response.
+-The user being updated on page load by retrieving data from the backend file using Redux:
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
 ## Table of Contents (Optional)
 
