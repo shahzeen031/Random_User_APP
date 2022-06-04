@@ -49,19 +49,19 @@ Building Parts of redux:
 - Action
 
 
-# Store
+### Store
 First Create a `Redux - Store` we can create a store using the createStore method from Redux. 
 
 A store is an immutable object tree in Redux. A store is a state container which holds the application’s state. Redux can have only a single store in your application.
 
-# Reducer
+### Reducer
 
 reducers folder in `client/src` contain the User State Reducer file.
 Reducers are the pure functions that take the current state and action and return the new state and tell the store how to do.. 
 Inside the Reducer file there are multiple switch cases are define ho handel each Action type and update the initial state of the store.
 It handles the error, loading states and actions return data. 
 
-# Action
+### Action
 
 action folder in `client/src` contain the User State Action file.
 Actions are a plain JavaScript object that contains information. Actions make the API call from the backend. 
