@@ -20,7 +20,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-Start by installing all Node dependencies using npm install in root
+Start by installing all Node dependencies using `npm install` in root, then `cd client` to install the react dependencies using `npm install`
 
 ## Usage
 
