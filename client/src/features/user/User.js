@@ -19,8 +19,9 @@ const User = ({
 
 }) => {
   useEffect(() => {
+console.log('onmount')
     getUser();
-  }, []);
+  }, [getUser]);
 
   
   return loading ? (
@@ -28,7 +29,7 @@ const User = ({
   // display a loading spinner until the data is not loaded into the state 
   <div className="container-fluid vh-100">
     <div className="d-flex align-items-center justify-content-center h-100">
-      <div class="d-flex flex-column">
+      <div className="d-flex flex-column">
         <div className="spinner-container">
           <div className="loading-spinner">
           </div>

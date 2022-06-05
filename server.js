@@ -1,12 +1,17 @@
+// Express is a minimal and flexible Node.js web application framework that provides a 
+// robust set of features to develop web and mobile applications. It facilitates the rapid
+//  development of Node based Web applications.
+
+// Allows to Define a routing table which is used to perform different actions based on 
+// HTTP Method and URL.
+
 const express = require('express');
 const app = express();
-
 const bodyParser = require('body-parser');
+const cors = require('cors')
 
+app.use(cors()) 
 
-//connect Database
-
-//Middleware
 
 app.use(express.json({ extended: false }));
 

@@ -14,7 +14,8 @@ import {
    };
    
    //user reducer Type cases:
-   export default function (state = initialState, action) {
+   export default function userReducer (state = initialState, action) {
+
      const { type, payload } = action;
    
      switch (type) {

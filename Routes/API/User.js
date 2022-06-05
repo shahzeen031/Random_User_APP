@@ -1,6 +1,5 @@
 const express = require('express');
 const router = express.Router();
-const request = require('request');
 const axios = require('axios');
 // @route    GET api/User
 // @desc     Get User Imformation

@@ -10,7 +10,7 @@ import {GET_USER, GET_USER_ERROR} from './types';
 export const getUser = () => async (dispatch) => {
     try {
       const res = await axios.get(`http://localhost:5050/api/user`);
-  
+      
       dispatch({
         type: GET_USER,
         payload: res.data,

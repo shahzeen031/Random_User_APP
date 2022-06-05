@@ -2,9 +2,9 @@
 
 ## Description
 
-- Build a simple React app that renders information retrieved from the Random User API. 
+- Build a simple React app that renders information retrieved from the Random User API.
 - Call the API from Node Express.js backend.
-- Redux Store is setup for appropriate actions and reducers to retrieve the response from the Node- Express Backend. then, update the user.js component using that      response.
+- Redux Store is set up for appropriate actions and reducers to retrieve the response from the Node- Express Backend. then, update the user.js component using that      response.
 - The user being updated on page load by retrieving data from the backend file using Redux:
 
 
@@ -24,29 +24,22 @@ Start by installing all Node dependencies using `npm install` in root, then `cd 
 
 ## Usage
 
-Run the Backend and forntend concurrently by using `npm run dev` or Run simple Backend by using `npm start`
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/UI.png)
-    ```
-
-     ```md
-    ![alt text](assets/images/MobileUI.png)
-    ```
+Run the Backend and frontend concurrently by using `npm run dev` or Run simple Backend by using `npm start`
+   
 
 ## Frontend
 
-The Frontend is Build using React and Redux.
+The Frontend is Built using React and Redux.
 
-Redux is a predictable state container for JavaScript apps.
+- Responsive UI is designed using the CSS framework Bootstrap.
+
+![UI](/assets/images/UI.png) ![Mobile UI](/assets/images/MobileUI.png)
+
+- Redux is a predictable state container for JavaScript apps.
 
 It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides a great developer experience.
 
-Building Parts of redux: 
+Building Parts of redux:
  
 - Store
 - Reducer
@@ -54,33 +47,33 @@ Building Parts of redux:
 
 
 ### Store
-First Create a `Redux - Store` we can create a store using the createStore method from Redux. 
+First Create a `Redux - Store` we can create a store using the createStore method from Redux.
 
 A store is an immutable object tree in Redux. A store is a state container which holds the application’s state. Redux can have only a single store in your application.
 
 ### Reducer
 
-reducers folder in `client/src` contain the User State Reducer file.
-Reducers are the pure functions that take the current state and action and return the new state and tell the store how to do.. 
-Inside the Reducer file there are multiple switch cases are define ho handel each Action type and update the initial state of the store.
-It handles the error, loading states and actions return data. 
+The reducers folder in `client/src` contains the User State Reducer file.
+Reducers are the pure functions that take the current state and action and return the new state and tell the store how to do..
+Inside the Reducer file there are multiple switch cases that define how to handle each Action type and update the initial state of the store.
+It handles the error, loading states and actions return data.
 
 ### Action
 
-action folder in `client/src` contain the User State Action file.
-Actions are a plain JavaScript object that contains information. Actions make the API call from the backend. 
+The action folder in `client/src` contains the User State Action file.
+Actions are a plain JavaScript object that contains information. Actions make the API call from the backend.
 Actions have a type field `GET_USER` and `GET_USER_ERROR` that dispateh the API response to the Reducer State.
 
 
 ## Backend
 
-Backend is setup on Node and Express server.
+Backend is set up on Node and Express server.
 
 Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications. It facilitates the rapid development of Node based Web applications.
 
-Allows to Defines a routing table which is used to perform different actions based on HTTP Method and URL.
+Allows to Define a routing table which is used to perform different actions based on HTTP Method and URL.
 
-The User file in the `Routes/API` folder contain the Get API to fetch the data from the Random User API.
+The User file in the `Routes/API` folder contains the Get API to fetch the data from the Random User API.
 
 Backend Server run on the `http://localhost:5050`
 
